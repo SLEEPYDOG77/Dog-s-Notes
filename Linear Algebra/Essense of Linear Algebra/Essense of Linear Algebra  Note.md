@@ -2,6 +2,10 @@
 
 @3Blue1Brown
 
+[YouTube](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&pbjreload=101)
+
+[B站](https://www.bilibili.com/video/BV1ys411472E)
+
 [TOC]
 
 

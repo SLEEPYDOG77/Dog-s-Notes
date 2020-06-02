@@ -156,3 +156,123 @@
 
 <img src="10-27.jpg" />
 
+
+
+#### To  Sum Up
+
+> let's revisit the example from the start with the matrix whose columns are (3, 0) and (1, 2). 
+>
+> To find if a value λ is an eigenvalue,  subtracted from the diagonals of this matrix and compute the determinant. 
+
+<img src="10-28.jpg" />
+
+> Since λ can only be an eigenvalue if this determinant happens to be zero, you can conclude that the only possible eigenvalues are λ equals 2 and λ equals 3. 
+
+<img src="10-29.jpg" />
+
+> To figure out what the eigenvectors are that actually have one of these eigenvalues, say λ equals 2, plug in that value of λ to the matrix and then solve for which vectors this diagonally altered matrix sends to 0. 
+
+<img src="10-31.jpg" />
+
+> If you computed this the way you would any other linear system, you'd see that the solutions are all the vectors on the diagonal line spanned by (-1, 1).
+>
+> This corresponds to the fact that the unaltered matrix [(3, 0), (1, 2)] has the effect of stretching all those vectors by a factor of 2. 
+
+<img src="10-32.jpg" />
+
+
+
+###### There could be no eigenvectors
+
+<img src="10-33.jpg" />
+
+
+
+###### A single eigenvalue can have more that a line full of eigenvectors
+
+
+
+#### `Eigenbasis`（特征基）
+
+###### What if both basis vectors are eigenvectors? 
+
+> Take a look at what happens if our basis vectors just so happened to be eigenvectors. 
+
+<img src="10-34.jpg" />
+
+> For example, maybe `i-hat` is scaled by -1 and `j-hat` is scaled by 2. 
+>
+> Writing their new coordinates as the columns of a matrix, notice that those scalar multiples -1 and 2, which are the eigenvalues of `i-hat` and `j-hat`, sit on the diagonal of our matrix and every other entry is a 0. 
+
+
+
+###### Diagonal Matrix（对角矩阵）
+
+> Anytime a matrix has 0's everywhere other than the diagonal, it's called, reasonably enough, a **diagonal matrix.**
+
+<img src="10-35.jpg" />
+
+
+
+> And the way to interpret this is that all the basis vectors are eigenvectors, with the diagonal entries of this matrix being their eigenvalues. 
+
+
+
+> There are a lot of things that make diagonal matrices much nicer to work with. 
+>
+> One big one is that it's easier to compute what will happen if you multiply this matrix by itself a whole bunch of times. 
+>
+> Since all one of these matrices does is scale each basis vector by some eigenvalue, applying that matrix many times, say 100 times, it just going to correspond to scaling each basis vector by the 100-th power of the corresponding eigenvalue. 
+
+<img src="10-36.jpg" />
+
+<img src="10-37.jpg" />
+
+
+
+> Of course, you will rarely be so lucky as to have your basis vectors also be eigenvectors, but if you transformation has a lot of eigenvectors, like the one from the start of this video, enough so that you can choose a set that spans the full space, then you could change your coordinate system so that these eigenvectors are your basis vectors. 
+
+
+
+###### How to express a transformation currently written in our coordinate system into a different system.
+
+> Take the coordinates of the vectors that you want to use as a new basis, 
+>
+> which, in this case, means are two eigenvectors, that make those coordinates the columns of a matrix, known as the change of basis matrix. 
+
+<img src="10-38.jpg" />
+
+> When you sandwich the original transformation putting the change of basis matrix on it's right and the inverse of the change of basis matrix on its left, the result will be a matrix representing that same transformation, but from the perspective of the new basis vectors coordinate system. 
+
+<img src="10-39.jpg" />
+
+> The whole point of doing this with eigenvectors is that this new matrix is guaranteed to be diagonal with its corresponding eigenvalues down that diagonal. 
+
+<img src="10-40.jpg" />
+
+> This is because it represents working in a coordinate system where what happens to the basis vectors is that they get scaled during the transformation. 
+
+
+
+> A set of basis vectors, which are also eigenvectors, is called, reasonably enough, are "`eigenbasis`". 
+
+<img src="10-41.jpg" />
+
+
+
+> So if, for example, you needed to compute the 100-th power of this matrix, it would be much easier to change to an eigenbasis, compute the 100-th power in that system, then convert back to our standard system. 
+
+
+
+###### Not all matrices can become diagonal
+
+> A shear, for example, doesn't have enough eigenvectors to span the full space. 
+>
+> But if you can find an eigenbasis, it makes matrix operations really lovely. 
+
+
+
+#### Test
+
+<img src="10-42.jpg" />
+

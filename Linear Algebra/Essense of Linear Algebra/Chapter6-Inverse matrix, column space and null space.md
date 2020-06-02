@@ -1,4 +1,4 @@
-## Chapter 6: Inverse matrix, column space and null space （逆矩阵、列空间和零空间）
+# Chapter 6: Inverse matrix, column space and null space （逆矩阵、列空间和零空间）
 
 > **To ask the right question is harder than to answer it.** 
 >
@@ -10,7 +10,11 @@
 
 
 
-#### Main Concepts
+[TOC]
+
+
+
+## Main Concepts
 
 Under the light of linear transformations
 
@@ -25,15 +29,13 @@ Under the light of linear transformations
 
 
 
-#### System of Equations
+## System of Equations
 
-###### Usefulness of matrices
-
-> Solve certain **systems of equations**.
+> One of the usefulness of **matrices** is to solve certain **systems of equations**.
 
 
 
-###### What is system of equations? 
+#### What is system of equations? 
 
 > You have a list of **variables** - things you don't know, and a list of **equations** relating them. 
 
@@ -41,15 +43,21 @@ Under the light of linear transformations
 
 > If you're lucky, they might take on a certain special form. 
 >
-> Within each equation, the only thing happening to each variable is that it's scaled by some constant, and the only thing happening to each of those scaled variables is that they're added to each other. 
+> Within each equation: 
+>
+> - the only thing happening to each variable is that it's scaled by some constant
+> - and the only thing happening to each of those scaled variables is that they're added to each other. 
 >
 > So, no exponents（幂次）or fancy functions, or multiplying two variables together - things like that. 
 
 
 
-> The typical way to organize this sort of special system of equations is to throw all the variables on the left and put any lingering constants on the right. 
->
-> It's also nice to vertically line up the common variables, and to do that, you might need to throw in some zero coefficients（系数） whenever the variable doesn't show up in one of the equations. 
+#### The typical way to organize system of equations —— Linear system of equations
+
+> - throw all the **variables** on the **left**
+> - put any lingering **constants** on the **right**
+> - **line up** the common variables
+>   -  (to do that, you might need to throw in some zero coefficients whenever the variable doesn't show up in one of the equations)
 >
 > This is called a **"linear system of equations"**.
 
@@ -57,7 +65,7 @@ Under the light of linear transformations
 
 
 
-###### System of Equations to  Matrices
+#### System of Equations to  Matrices
 
 <img src="6-3.jpg" />
 
@@ -67,12 +75,14 @@ Under the light of linear transformations
 
 
 
-###### The geometric interpretation of system of equations 
+#### The geometric interpretation of system of equations 
 
 > This is more than just a notational trick（书写技巧） to get our system of equations written on one line. 
 >
 > It sheds light on a pretty cool geometric interpretation for the problem.
->
+
+
+
 > The **matrix A** corresponds with some linear transformation, So solving `Ax = v` means we're looking for a **vector x**, which after applying the transformation lands on **v**. 
 
 <img src="6-4.jpg" />
@@ -81,7 +91,7 @@ Under the light of linear transformations
 
 
 
-#### Example
+## How to solve the system of equations?
 
 <img src="6-6.jpg" />
 
@@ -90,10 +100,11 @@ Under the light of linear transformations
 > - squishes all of space into a lower dimension, like a line or a point
 > - or if it leaves everything spanning the full two dimensions where it started. 
 >
-> We subdivide in two cases: 
->
-> 1. the case where A has **zero determinant**
-> 2. the case where A has **non-zero determinant**
+
+#### Subdivided in two cases
+
+> 1. A has **zero determinant**
+>2. A has **non-zero determinant**
 
 
 
@@ -111,17 +122,21 @@ Under the light of linear transformations
 
 
 
-###### For Example
+###### **For Example**
 
 > - If A was a counter-clockwise rotation by 90 degrees, then the inverse of A would be a clockwise rotation by 90 degrees. 
 > - If A was a rightward shear that pushes `j-hat` one unit to the right, the inverse of A would be a leftward shear that pushes `j-hat` one unit to the left. 
 
 
 
-###### Identity Transformation（单位变换 / 恒等变换）
+###### The property of inverse
 
 > In general, A inverse is the unique transformation with the property that  if you first apply A, then follow it with the transformation A inverse, you end up back where you started. 
->
+
+
+
+###### Identity Transformation（单位变换 / 恒等变换）
+
 > Applying one transformation after another is captured algebraically with matrix multiplication, so the core property of this transformation A inverse is that **A inverse times A equals the matrix that corresponds to "doing nothing".** 
 >
 > The transformation that "does nothing" is called the **identity transformation（单位变换 / 恒等变换） **.
@@ -130,13 +145,15 @@ Under the light of linear transformations
 
 
 
+###### To solve the system of equations
+
 > Once you find this inverse, which in practice you do with a computer, you can solve your equation by multiplying this inverse matrix by v. 
 
 <img src="6-8.jpg" />
 
-<img src="6-9.jpg" />
-
 > And again, what this means geometrically is that you're playing the transformation in reverse and following v. 
+
+<img src="6-9.jpg" />
 
 
 
@@ -146,7 +163,9 @@ Under the light of linear transformations
 
 #### 2. Zero Determinant
 
-> But when the determinant is zero and the transformation associated with this system of equations squishes space into a smaller dimension, there is no inverse. 
+> But when the determinant is zero and the transformation associated with this system of equations squishes space into a smaller dimension, **there is no inverse**. 
+
+
 
 ###### Two - dimensional 
 
@@ -192,7 +211,7 @@ Under the light of linear transformations
 
 ###### Rank 1
 
-> When the output of a transformation is a line, meaning it's one-dimensional, we say the transformation has a rank of 1. 
+> When **the output of a transformation is** a line, meaning it's **one-dimensional**, we say the transformation has a rank of 1. 
 
 <img src="6-16.jpg" />
 
@@ -200,7 +219,7 @@ Under the light of linear transformations
 
 ###### Rank 2
 
-> If all the vectors land on some two-dimensional plane, we say the transformation has a rank of 2. 
+> If all the vectors land on some **two-dimensional** plane, we say the transformation has a rank of 2. 
 
 <img src="6-17.jpg" />
 
@@ -220,11 +239,11 @@ Under the light of linear transformations
 
 > The columns of your matrix tell you where the basis vectors land, and the span of those transformed basis vectors gives you all possible outputs. 
 >
-> In other words, the column space is the span of the columns of your matrix. 
+> In other words, **the column space is the span of the columns of your matrix.** 
 
 <img src="6-20.jpg" />
 
-> So, **a more precise definition of rank would be that it's the number of dimensions in the column space.**
+> So, a more precise definition of rank would be that **it's the number of dimensions in the column space.**
 >
 > （更精确的秩的定义是列空间的维数。）
 
@@ -236,8 +255,8 @@ Under the light of linear transformations
 
 
 
-> Notice, the **zero vector** will always be included in the column space. 
->
+###### Zero vector will always be included in the column space
+
 > Since linear transformations must keep the origin fixed in space. 
 
 <img src="6-21.jpg" />
@@ -246,11 +265,10 @@ Under the light of linear transformations
 
 #### Null Space / Kernel（零空间 / 核）
 
-> For a **full rank transformation**, the only vector that lands at the origin is the zero vector itself.
->
-> But for matrices that aren't full rank, which squish to a smaller dimension, you can have a whole bunch of vectors that land on zero. 
->
-> This set of vectors that lands on the origin is called the **"null space"** or the **"kernel"** of your matrix. 
+> - For a **full rank transformation**, the only vector that lands at the origin is the zero vector itself.
+>- But for matrices that aren't full rank, which squish to a smaller dimension, you can have a whole bunch of vectors that land on zero. 
+> 
+>**This set of vectors that lands on the origin** is called the **"null space"** or the **"kernel"** of your matrix. 
 
 <img src="6-22.jpg" />
 

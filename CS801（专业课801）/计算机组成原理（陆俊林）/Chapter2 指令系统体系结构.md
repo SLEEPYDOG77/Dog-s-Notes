@@ -264,3 +264,57 @@
 
 <img src="2-5-1.jpg" />
 
+### MIPS公司的商业兴衰
+
+<img src="2-5-2.jpg" />
+
+### MIPS指令的发展
+
+<img src="2-5-3.jpg" />
+
+### MIPS的设计指导思想
+
+- MIPS的全称
+  - Microprocessor without Interlocked Piped Stages（无内部互锁流水级的微处理器）
+- 主要关注点
+  - 减少指令的类型
+  - 降低指令复杂度
+- 基本原则
+  - A simple CPU is a faster CPU.
+
+> CPU越简单就可以运行得越快。
+>
+> 假设要编写程序完成同样的任务，用MIPS指令编写其指令数量是x86指令的五倍，但MIPS的CPU能够做到比x86的CPU快十倍，那它仍然获得了明显的性能优势。
+>
+> 这就是MIPS，同时也是RISC的设计思想。
+
+### MIPS指令的主要特点
+
+<img src="2-5-4.jpg" />
+
+### MIPS指令示例
+
+#### 加法指令
+
+<img src="2-5-5.jpg" />
+
+#### 访存指令
+
+<img src="2-5-6.jpg" />
+
+### MIPS的通用寄存器
+
+>  32个，每个都是32位宽。
+
+<img src="2-5-7.jpg" />
+
+#### 通用寄存器使用示例
+
+<img src="2-5-8.jpg" />
+
+
+
+## 第六节 MIPS指令简介
+
+
+

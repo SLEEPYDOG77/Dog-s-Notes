@@ -1,3 +1,5 @@
+# Chapter3 - Matrices as Linear transformations
+
 > Unfortunately, no one can be told what the Matrix is. You have to see it for yourself. 
 >
 > —— Morpheus
@@ -10,11 +12,11 @@
 >
 > （描述直观理解矩阵操作重要性的绝佳台词。）
 
+[TOC]
 
+## Linear Transformation
 
-#### Linear Transformation
-
-###### Transformation vs.  Function
+### Transformation vs.  Function
 
 > **Transformation** is essentially a fancy word for **function**, it's something that takes in inputs and spits out an output for each one. 
 >
@@ -33,7 +35,7 @@
 
 
 
-###### Two properties of Linear Transformation
+### Two properties of Linear Transformation
 
 > Visually speaking, a transformation is linear if it has two properties:
 >
@@ -44,27 +46,27 @@
 
 
 
-<img src="3-0.jpg" />
+<img src="pic/3-0.jpg" />
 
 
 
 ###### Examples
 
-<img src="3-0-1.jpg" />
+<img src="pic/3-0-1.jpg" />
 
 > Not linear: some lines get curved.
 
-<img src="3-0-2.jpg" />
+<img src="pic/3-0-2.jpg" />
 
 > Not linear: Origin moves.
 
-<img src="3-0-3.jpg" />
+<img src="pic/3-0-3.jpg" />
 
 > Not linear: diagonal lines get curved. 
 
 
 
-###### How would you describe Linear Transformation numerically?
+### How to describe Linear Transformation numerically?
 
 > **Q:** If you were, say, programming some animations to make a video teaching the topic, what formula did you give the computer so that if you give it the coordinates of a vector, it can give you the coordinates of where that vector lands? 
 >
@@ -72,11 +74,11 @@
 
 
 
-<img src="3-1.jpg" />
+<img src="pic/3-1.jpg" />
 
 
 
-<img src="3-2.jpg" />
+<img src="pic/3-2.jpg" />
 
 
 
@@ -89,7 +91,7 @@
 
 
 
-<img src="3-3.jpg" />
+<img src="pic/3-3.jpg" />
 
 
 
@@ -99,9 +101,9 @@
 
 
 
-<img src="3-4.jpg" />
+<img src="pic/3-4.jpg" />
 
-<img src="3-5.jpg" />
+<img src="pic/3-5.jpg" />
 
 > Q: 为什么此处要右乘原向量？
 >
@@ -109,31 +111,31 @@
 
 
 
-#### Linear Transformation Examples
+### Linear Transformation Examples
 
-###### 90° rotation counter - clockwise（逆时针旋转90°）
+##### 90° rotation counter - clockwise（逆时针旋转90°）
 
-<img src="3-6.jpg" />
+<img src="pic/3-6.jpg" />
 
 
 
-###### Shear（剪切 / 错切）
+##### Shear（剪切 / 错切）
 
 > Here's a fun transformation with a special name, called a **"shear"（剪切）**.
 >
 > In it, `i-hat` remains fixed, so the first column of the matrix is (1, 0), but `j-hat` moves over to the coordinate (1, 1), which become the second column of the matrix.
 
-<img src="3-7.jpg" />
+<img src="pic/3-7.jpg" />
 
 
 
-#### Linearly dependent columns（列线性相关）
+## Linearly dependent columns（列线性相关）
 
-> If the vectors that `i-hat` and `j-hat` land on are **linearly dependent**, it means that the linear transformation squishes all of 2-D space onto the line where those two vectors sit, also known as the one-dimensional span of those two linearly dependent vectors. 
+> If the vectors that `i-hat` and `j-hat` land on are **linearly dependent**, it means that the linear transformation squishes all of 2-D space onto the **line** where those two vectors sit, also known as the one-dimensional span of those two linearly dependent vectors. 
 
 
 
-#### To sum up
+## Summary
 
 > Linear transformations are way to move around space such the grid lines remain parallel and evenly spaced and such that the origin remains fixed. 
 >

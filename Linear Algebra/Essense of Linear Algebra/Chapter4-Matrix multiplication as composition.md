@@ -1,4 +1,4 @@
-## Chapter 4: Matrix multiplication as composition
+# Chapter 4: Matrix multiplication as composition
 
 > It is my experience that proofs involving matrices can be shortened by 50% if one throws the matrices out. 
 >
@@ -8,11 +8,11 @@
 >
 > —— 埃米尔·阿廷
 
+[TOC]
 
+## Composition
 
-#### Composition
-
-###### Example
+### Example
 
 > Maybe you want to describe what happens when you first rotate the plane 90 degrees counter-clockwise, then apply a shear. 
 >
@@ -22,9 +22,9 @@
 
 
 
-<img src="4-1.jpg" />
+<img src="pic/4-1.jpg" />
 
-<img src="4-2.jpg" />
+<img src="pic/4-2.jpg" />
 
 
 
@@ -32,65 +32,69 @@
 
 
 
-###### Matrix composition vs. Function composition
+### Matrix composition vs. Function composition
 
 > Read right to left. 
 
-<img src="4-3.jpg" />
+<img src="pic/4-3.jpg" />
 
 
 
-###### How to calculate?
+### How to calculate?
 
-> Where does `i-hat` go? 
+##### 1. Where does `i-hat` go? 
 
-<img src="4-4.jpg" />
+<img src="pic/4-4.jpg" />
 
-<img src="4-5.jpg" />
+<img src="pic/4-5.jpg" />
 
-<img src="4-6.jpg" />
+<img src="pic/4-6.jpg" />
 
-<img src="4-7.jpg" />
+<img src="pic/4-7.jpg" />
 
 
 
-> Where does `j-hat` go?
+##### 2. Where does `j-hat` go?
 
-<img src="4-8.jpg" />
+<img src="pic/4-8.jpg" />
 
-<img src="4-9.jpg" />
+<img src="pic/4-9.jpg" />
 
 
 
 > This method works generally. 
 
-<img src="4-10.jpg" />
+<img src="pic/4-10.jpg" />
 
-<img src="4-11.jpg" />
+<img src="pic/4-11.jpg" />
 
-<img src="4-12.jpg" />
-
-
-
-###### Does it matter what order we put the two matrices in when we multiply them? 
-
-<img src="4-13.jpg" />
+<img src="pic/4-12.jpg" />
 
 
 
-###### Associativity（结合律）
+### Algorithm
 
-<img src="4-14.jpg" />
+##### Commutativity（交换律）
+
+> Does it matter what order we put the two matrices in when we multiply them? 
+
+<img src="pic/4-13.jpg" />
+
+​                       
+
+##### Associativity（结合律）
+
+<img src="pic/4-14.jpg" />
 
 > Now, if you try to work through this numerically, like I did back then, it's horrible, just horrible, and unenlightening for that matter. 
 >
 > But when you think about matrix multiplication as applying one transformation after another, this property is just trivial（平凡的）.
 
-<img src="4-15.jpg" />
+<img src="pic/4-15.jpg" />
 
 
 
-## Addition: Linear Transformations in Three Dimensions 
+# Addition: Linear Transformations in Three Dimensions 
 
 > Lisa: Well, where's my dad?
 >
@@ -102,5 +106,5 @@
 
 
 
-###### Three-dimensional Transformation
+## Three-dimensional Transformation
 

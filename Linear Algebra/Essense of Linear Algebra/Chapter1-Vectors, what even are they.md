@@ -1,4 +1,4 @@
-## Chapter 1: Vectors, what even are they?
+# Chapter 1: Vectors, what even are they?
 
 > "The introduction of numbers as coordinates is an act of violence. "
 >
@@ -8,11 +8,11 @@
 >
 > —— 赫尔曼·外尔
 
+[TOC]
 
+### Three distinct but related ideas about vectors
 
-#### Three distinct but related ideas about vectors
-
-###### 1. Physics student
+#### 1. Physics student
 
 > Vectors are arrows pointing in space. 
 >
@@ -22,13 +22,13 @@
 >
 > Vectors are free. 
 
-###### 2. CS student
+#### 2. CS student
 
 > Vectors are ordered lists of numbers. 
 >
 > In this context, "vector" is pretty much just a fancy word for "list". 
 
-3. ###### Mathematician
+#### 3. Mathematician
 
 > The mathematician seeks to generalize both of these views, basically saying that a vector can be anything where there's a sensible notion of adding two vectors and multiplying a vector by a number. 
 >
@@ -36,17 +36,19 @@
 
 
 
-<img src="1-1.jpg" />
+<img src="pic/1-1.jpg" />
 
 
 
-###### Physics perspective vs. CS perspective
+##### Physics perspective vs. CS perspective
 
 > Every pair of numbers gives you one and only one vector, and every vector is associated with one and only one pair of numbers. 
 
 
 
-#### Vector addition
+### Vector Operations
+
+#### 1. Vector addition
 
 > To add these two vectors, move the second one so that its tail sits at the tip of the first one. 
 >
@@ -54,7 +56,7 @@
 >
 > That new vector is their sum. 
 
-<img src="1-2.jpg" />
+<img src="pic/1-2.jpg" />
 
 
 
@@ -62,21 +64,21 @@
 
 
 
-#### Vector Multiplication
+#### 2. Vector Multiplication
 
-###### Example
+##### Example
 
 > If you take the number 2, and multiply it by a given vector, it means you stretch out that vector so that it's 2 times as long as when you started. 
 
 
 
-###### Scaling（缩放）
+##### Scaling（缩放）
 
 > This process of stretching or squishing or sometimes reversing the direction of a vector is called "scaling". 
 
 
 
-###### Scalars（标量）
+##### Scalars（标量）
 
 > Whenever you catch a number like 2 or 1/3 or -1.8 acting like this, scaling some vector, you call it a **"scalar"**. 
 >
@@ -84,7 +86,7 @@
 
 
 
-<img src="1-3.jpg" />
+<img src="pic/1-3.jpg" />
 
 
 

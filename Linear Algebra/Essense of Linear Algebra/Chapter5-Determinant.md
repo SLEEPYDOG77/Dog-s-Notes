@@ -6,9 +6,9 @@
 
 
 
-<img src="5-1.jpg" />
+<img src="pic/5-1.jpg" />
 
-<img src="5-2.jpg" />
+<img src="pic/5-2.jpg" />
 
 
 
@@ -20,13 +20,13 @@
 
 ###### The Determinant of a Transformation
 
-<img src="5-3.jpg" />
+<img src="pic/5-3.jpg" />
 
 > For example, the determinant of a transformation would be 6, if that transformation increases the area of a region by a factor of 6.
 >
 > And the determinant of a 2-D transformation is 0, if it squishes all of space on to a line, or even onto a single point. Since then, the area of any region would become 0. 
 
-<img src="5-4.jpg" />
+<img src="pic/5-4.jpg" />
 
 > It means that checking if the determinant of a given matrix is 0 will give a way of computing whether or not the transformation associated with that matrix squishes everything into a smaller dimension. 
 
@@ -54,11 +54,11 @@
 
 > In their starting positions, `j-hat` is to the left of `i-hat`. 
 
-<img src="5-5.jpg" />
+<img src="pic/5-5.jpg" />
 
 > If after transformation `j-hat` is now on the right of `i-hat`. 
 
-<img src="5-6.jpg" />
+<img src="pic/5-6.jpg" />
 
 > **Orientation has been reversed. （定向发生了改变）**
 >
@@ -90,11 +90,11 @@
 
 
 
-<img src="5-7.jpg" />
+<img src="pic/5-7.jpg" />
 
 
 
-<img src="5-8.jpg" />
+<img src="pic/5-8.jpg" />
 
 
 
@@ -106,7 +106,7 @@
 > - Stick out your **middle finger**（中指） in the direction of `j-hat`
 > - And notice how when you point your **thumb**（大拇指） up, it's in the direction of `k-hat`. 
 
-<img src="5-9.jpg" />
+<img src="pic/5-9.jpg" />
 
 
 
@@ -114,29 +114,29 @@
 >
 > Otherwise, if after the transformation it only makes sense to do that with your left hand, orientation has been flipped and the determinant is negative. 
 
-<img src="5-10.jpg" />
+<img src="pic/5-10.jpg" />
 
 
 
 ###### How do you compute determinant?
 
-<img src="5-11.jpg" />
+<img src="pic/5-11.jpg" />
 
 
 
-<img src="5-12.jpg" />
+<img src="pic/5-12.jpg" />
 
-<img src="5-13.jpg" />
+<img src="pic/5-13.jpg" />
 
-<img src="5-14.jpg" />
+<img src="pic/5-14.jpg" />
 
 
 
-<img src="5-15.jpg" />
+<img src="pic/5-15.jpg" />
 
 
 
 ###### Quits Time
 
-<img src="5-16.jpg" />
+<img src="pic/5-16.jpg" />
 

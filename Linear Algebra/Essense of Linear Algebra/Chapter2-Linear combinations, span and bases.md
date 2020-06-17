@@ -1,4 +1,4 @@
-## Chapter 2: Linear combinations, span and bases
+# Chapter 2: Linear combinations, span and bases
 
 > Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity.
 >
@@ -8,15 +8,15 @@
 >
 > —— 安古斯·罗杰斯
 
+[TOC]
 
-
-#### Basis Vectors
+### Basis Vectors
 
 ###### Think of each coordinate as a scalar（标量）.
 
 > In this sense, the vectors that these coordinates describe is the sum of two scaled vectors.
 >
-> `i-hat` and `j-hat` are the **basis vectors** of the `xy` coordinate system.
+> `i-hat` and `j-hat` are the **basis vectors** of the `x、y` coordinate system.
 
 
 
@@ -34,13 +34,13 @@
 
 
 
-#### Linear Combination
+### Linear Combination
 
-###### Linear Combination of two vectors
+#### Linear Combination of two vectors
 
 > Any time that you're scaling two vectors and adding them like this, it's called a linear combination of those two vectors. 
 
-<img src="2-1.jpg" />
+<img src="pic/2-1.jpg" />
 
 > **Q:** Where does this word "linear" come from? Why does this have anything to do with lines? 
 >
@@ -48,9 +48,9 @@
 
 
 
-###### The span of two vectors
+#### The span of two vectors
 
-<img src="2-2.jpg" />
+<img src="pic/2-2.jpg" />
 
 > The **span** of most pairs of 2-D vectors is all vectors of 2-D space. 
 >
@@ -62,7 +62,7 @@
 
 
 
-###### Vectors vs. Points
+##### Vectors vs. Points
 
 > It's a way to simplify. 
 >
@@ -80,7 +80,7 @@
 
 
 
-###### What does the span of two 3d vectors look like?
+##### What does the span of two 3d vectors look like?
 
 > That tip will trace out some kind of flat sheet, cutting through the origin of three-dimensional space. This flat sheet is the span of the two vectors. 
 >
@@ -88,9 +88,9 @@
 
 
 
-###### The span of three vectors
+#### The span of three vectors
 
-<img src="2-3.jpg"/>
+<img src="pic/2-3.jpg"/>
 
 > Two different things could happen here:
 >
@@ -101,29 +101,29 @@
 
 
 
-#### Linearly Dependent / Independent
+### Linearly Dependent / Independent
 
-###### Linearly Dependent
+#### Linearly Dependent
 
 > Whenever this happens, where you have multiple vectors and you could remove one without reducing the span, the relevant terminology is to say that they are **"Linearly dependent"**. 
 >
 > Another way of phrasing that would be to say that one of the vectors can be expressed as a linear combination of the others, since it's already in the span of the others. 
 
-<img src="2-4.jpg" />
+<img src="pic/2-4.jpg" />
 
 
 
-###### Linearly Independent
+#### Linearly Independent
 
 > On the other hand, if each vector really does add another dimension to the span, they're said to be **"linearly independent"**.
 
-<img src="2-5.jpg" />
+<img src="pic/2-5.jpg" />
 
 
 
-#### Basis
+### Basis
 
-###### Technical definition of basis
+#### Technical definition of basis
 
 > The **basis** of a vector space is a set of **linearly independent** vectors that span the full space. 
 >

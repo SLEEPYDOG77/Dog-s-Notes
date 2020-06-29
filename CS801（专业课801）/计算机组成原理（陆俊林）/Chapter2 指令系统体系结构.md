@@ -6,7 +6,7 @@
 
 ### 从一个小故事开始
 
-<img src="2-1-1.jpg" />
+<img src="pics/2-1-1.jpg" />
 
 > 怎么保证你设计的软件能在我设计的硬件上工作起来呢？
 
@@ -14,7 +14,7 @@
 
 ### 一个简单的计算机指令系统
 
-<img src="2-1-2.jpg" />
+<img src="pics/2-1-2.jpg" />
 
 > 如何转换为计算机所能识别的二进制代码？
 
@@ -22,29 +22,29 @@
 
 ### 指令的格式
 
-<img src="2-1-3.jpg" />
+<img src="pics/2-1-3.jpg" />
 
 
 
 ### 运算任务示例
 
-<img src="2-1-4.jpg" />
+<img src="pics/2-1-4.jpg" />
 
-<img src="2-1-5.jpg" />
+<img src="pics/2-1-5.jpg" />
 
 
 
 ### 在存储器中的机器语言程序
 
-<img src="2-1-6.jpg" />
+<img src="pics/2-1-6.jpg" />
 
 
 
 ### 模型机的CPU和存储器
 
-<img src="2-1-7.jpg" />
+<img src="pics/2-1-7.jpg" />
 
-<img src="2-1-8.jpg" />
+<img src="pics/2-1-8.jpg" />
 
 
 
@@ -52,25 +52,25 @@
 
 ### X86-16
 
-<img src="2-2-1.jpg" />
+<img src="pics/2-2-1.jpg" />
 
 #### Intel 8086（1978年）
 
-<img src="2-2-2.jpg" />
+<img src="pics/2-2-2.jpg" />
 
 ##### IBM PC
 
-<img src="2-2-3.jpg" />
+<img src="pics/2-2-3.jpg" />
 
 
 
 #### Intel 80286（1982年）
 
-<img src="2-2-4.jpg" />
+<img src="pics/2-2-4.jpg" />
 
 ##### 实模式（Real Mode）
 
-<img src="2-2-5.jpg" />
+<img src="pics/2-2-5.jpg" />
 
 > 现在的个人计算机在启动后，CPU首先会通过主板上的芯片组从BIOS芯片中取出指令进行执行，这段程序就是运行在**实模式**下的。
 
@@ -78,19 +78,19 @@
 
 ### IA-32
 
-<img src="2-2-6.jpg" />
+<img src="pics/2-2-6.jpg" />
 
 #### Intel 80386（1985年）
 
-<img src="2-2-7.jpg" />
+<img src="pics/2-2-7.jpg" />
 
 ##### 保护模式（Protected Mode）
 
-<img src="2-2-8.jpg" />
+<img src="pics/2-2-8.jpg" />
 
 ##### 三种工作模式之间的转换
 
-<img src="2-2-9.jpg" />
+<img src="pics/2-2-9.jpg" />
 
 > - 在系统启动后，会首先进入**实模式**。
 >
@@ -104,15 +104,15 @@
 
 ### x86-64
 
-<img src="2-2-10.jpg" />
+<img src="pics/2-2-10.jpg" />
 
 #### AMD Opteron（2003年）
 
-<img src="2-2-11.jpg" />
+<img src="pics/2-2-11.jpg" />
 
 #### x86-64的运行模式
 
-<img src="2-2-12.jpg" />
+<img src="pics/2-2-12.jpg" />
 
 
 
@@ -122,31 +122,31 @@
 
 ##### 8086的寄存器模型
 
-<img src="2-2-13.jpg" />
+<img src="pics/2-2-13.jpg" />
 
 ###### 通用寄存器（多功能寄存器2）
 
-<img src="2-2-14.jpg" />
+<img src="pics/2-2-14.jpg" />
 
-<img src="2-2-15.jpg" />
+<img src="pics/2-2-15.jpg" />
 
 ###### 标志寄存器
 
-<img src="2-2-16.jpg" />
+<img src="pics/2-2-16.jpg" />
 
-<img src="2-2-17.jpg" />
+<img src="pics/2-2-17.jpg" />
 
 
 
 ##### IA-32的寄存器模型
 
-<img src="2-2-18.jpg" />
+<img src="pics/2-2-18.jpg" />
 
 
 
 ##### x86-64的寄存器模型
 
-<img src="2-2-19.jpg" />
+<img src="pics/2-2-19.jpg" />
 
 
 
@@ -156,31 +156,31 @@
 
 ###### 指令指针寄存器
 
-<img src="2-2-20.jpg" />
+<img src="pics/2-2-20.jpg" />
 
 ###### 段寄存器
 
-<img src="2-2-21.jpg" />
+<img src="pics/2-2-21.jpg" />
 
 ###### 物理地址生成
 
-<img src="2-2-22.jpg" />
+<img src="pics/2-2-22.jpg" />
 
 ###### 逻辑段在物理存储器中的位置
 
-<img src="2-2-23.jpg" />
+<img src="pics/2-2-23.jpg" />
 
 ###### “段加偏移”的编程实例
 
-<img src="2-2-24.jpg" />
+<img src="pics/2-2-24.jpg" />
 
 
 
 ##### IA-32的存储器寻址
 
-<img src="2-2-25.jpg" />
+<img src="pics/2-2-25.jpg" />
 
-<img src="2-2-26.jpg" />
+<img src="pics/2-2-26.jpg" />
 
 > CPU中CS寄存器，不再保存段基址，而是指向这个描述符的地址。
 >
@@ -202,7 +202,7 @@
 
 ##### x86-64的描述符
 
-<img src="2-2-27.jpg" />
+<img src="pics/2-2-27.jpg" />
 
 
 
@@ -210,49 +210,127 @@
 
 ### 指令的主要类别
 
-<img src="2-3-1.jpg" />
+<img src="pics/2-3-1.jpg" />
 
 ### 指令的运行结果
 
-<img src="2-3-2.jpg" />
+<img src="pics/2-3-2.jpg" />
 
 ### 指令分类举例
 
 #### 1. 传送指令
 
-<img src="2-3-3.jpg" />
+<img src="pics/2-3-3.jpg" />
 
-##### MOV指令
+##### （1）MOV指令
 
+<img src="pics/2-3-4.jpg">
 
+<img src="pics/2-3-5.jpg">
+
+<img src="pics/2-3-6.jpg">
+
+<img src="pics/2-3-7.jpg">
+
+##### （2）栈操作之类
+
+###### PUSH指令（压栈）
+
+<img src="pics/2-3-8.jpg">
+
+###### POP指令（出栈）
+
+<img src="pics/2-3-9.jpg">
+
+<img src="pics/2-3-10.jpg">
 
 
 
 #### 2. 算术运算指令
 
+<img src="pics/2-3-11.jpg">
 
+<img src="pics/2-3-12.jpg">
+
+##### （1）加法类指令
+
+<img src="pics/2-3-13.jpg">
+
+##### （2）减法类指令
+
+<img src="pics/2-3-14.jpg">
+
+<img src="pics/2-3-15.jpg">
 
 
 
 #### 3. 逻辑运算和移位指令
 
+<img src="pics/2-3-16.jpg">
 
+##### （1）逻辑运算指令
 
+<img src="pics/2-3-17.jpg">
 
+##### （2）移位指令
+
+<img src="pics/2-3-18.jpg">
+
+<img src="pics/2-3-19.jpg">
 
 #### 4. 转移指令
 
+<img src="pics/2-3-20.jpg">
 
+##### （1）无条件转移指令 —— 直接转移
+
+<img src="pics/2-3-21.jpg">
+
+<img src="pics/2-3-22.jpg">
+
+##### （2）无条件转移指令 —— 间接转移
+
+<img src="pics/2-3-23.jpg">
+
+##### （3）条件转移指令
+
+<img src="pics/2-3-24.jpg">
+
+<img src="pics/2-3-25.jpg">
+
+<img src="pics/2-3-26.jpg">
 
 
 
 #### 5. 处理器控制指令
 
+<img src="pics/2-3-27.jpg">
+
 
 
 ## 第四节 复杂的x86指令举例
 
+#### 1. 串操作指令
 
+<img src="pics/2-4-1.jpg">
+
+<img src="pics/2-4-2.jpg">
+
+##### （1）MOVSB指令（字节串传送）
+
+<img src="pics/2-4-3.jpg">
+
+
+
+#### 2. 循环控制指令
+
+
+
+#### 3. 查表指令
+
+
+
+#### 4. 十进制调整指令
 
 
 
@@ -262,15 +340,15 @@
 
 ### MIPS的设计者和RISC的先驱
 
-<img src="2-5-1.jpg" />
+<img src="pics/2-5-1.jpg" />
 
 ### MIPS公司的商业兴衰
 
-<img src="2-5-2.jpg" />
+<img src="pics/2-5-2.jpg" />
 
 ### MIPS指令的发展
 
-<img src="2-5-3.jpg" />
+<img src="pics/2-5-3.jpg" />
 
 ### MIPS的设计指导思想
 
@@ -290,27 +368,27 @@
 
 ### MIPS指令的主要特点
 
-<img src="2-5-4.jpg" />
+<img src="pics/2-5-4.jpg" />
 
 ### MIPS指令示例
 
 #### 加法指令
 
-<img src="2-5-5.jpg" />
+<img src="pics/2-5-5.jpg" />
 
 #### 访存指令
 
-<img src="2-5-6.jpg" />
+<img src="pics/2-5-6.jpg" />
 
 ### MIPS的通用寄存器
 
 >  32个，每个都是32位宽。
 
-<img src="2-5-7.jpg" />
+<img src="pics/2-5-7.jpg" />
 
 #### 通用寄存器使用示例
 
-<img src="2-5-8.jpg" />
+<img src="pics/2-5-8.jpg" />
 
 
 
